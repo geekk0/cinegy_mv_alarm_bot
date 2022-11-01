@@ -15,12 +15,12 @@ notification.
 ## Start
 
 1. Adding to the virtual environment: ```pip install -r reqs.txt```
-2. In the config.py file we add : ```token = "*bot API token*"```
+2. In the config.py file add : ```token = "*bot API token*"```
 3. Run on the server *server_socket.py* и *bot.py*.
 
 ## Using a bot
 
-We use the command *"/send_me_alarm"* to add your chat_id to the notification mailing list.
+Use the command *"/send_me_alarm"* to add your chat_id to the notification mailing list.
 <br>
 *"/stop_send_alarm"*, to remove your chat_id from the notification mailing list.
 
