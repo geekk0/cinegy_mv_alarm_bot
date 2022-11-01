@@ -28,7 +28,7 @@ print('Server is running, please, press ctrl+c to stop')
 while True:
     conn, addr = sock.accept()  # начинаем принимать соединения
     print('connected:', addr)  # выводим информацию о подключении
-    print(datetime.datetime.now().date())
+    print(datetime.datetime.now())
     data = conn.recv(1024)  # принимаем данные от клиента, по 1024 байт
     data_string = data.decode("utf-8")
     # print(data_string)
